@@ -1,0 +1,16 @@
+{
+  "bigin-confirm-high-impact": {
+    "PreToolUse": [
+      {
+        "matcher": "Bigin_(delete\\w*|changeRecordOwner|changeMultipleRecordOwners|delink\\w*|addNewUser|updateSpecificUser|updateUsersData|updateSpecificTag|updateMultipleTags|enableNotifications|updateNotificationDetails|updateOrDisableANotifDetails|disableNotifications)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/hooks.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

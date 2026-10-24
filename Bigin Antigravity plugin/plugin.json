@@ -1,0 +1,30 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "zoho-bigin",
+  "displayName": "Bigin",
+  "version": "1.0.0",
+  "description": "Manage your Bigin CRM from Antigravity: review pipelines, find contacts and deals, log calls, plan follow-ups, and email customers.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Show my open deals in Bigin",
+    "List my Bigin tasks due this week",
+    "Add a new contact to Bigin"
+  ],
+  "keywords": [
+    "zoho",
+    "bigin",
+    "crm",
+    "sales",
+    "pipelines",
+    "deals",
+    "contacts",
+    "companies",
+    "tasks"
+  ],
+  "author": {
+    "name": "Zoho Corporation",
+    "email": "support@bigin.com",
+    "url": "https://www.bigin.com"
+  },
+  "homepage": "https://www.bigin.com/developer/docs/apis/v2/"
+}

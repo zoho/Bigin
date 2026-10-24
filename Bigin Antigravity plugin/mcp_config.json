@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "api": {
+      "serverUrl": "https://bigin.zohomcp.com/mcp/message"
+    }
+  }
+}
